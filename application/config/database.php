@@ -49,8 +49,8 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
+$db['default']['username'] = 'realestate';
+$db['default']['password'] = '865b8674';
 $db['default']['database'] = 'realestate';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
