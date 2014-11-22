@@ -200,7 +200,7 @@ console.log("request:"+id);
 //$(".responsive-calendar").responsiveCalendar('clearAll');
          $.ajax({
            type:'POST',
-           url:'http://localhost/realestate/ajax/calendar-ajax.php',
+           url:'<?php echo base_url();?>ajax/calendar-ajax.php',
            data: {id:id},          
 dataType:'json',	
            success: function (response)
